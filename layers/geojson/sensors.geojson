@@ -1,0 +1,60 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "SENSOR_ID": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 121.036290322126476, 14.645779504049672 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 121.011981809536351, 14.62989367783946 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 121.000040785807869, 14.619551898360328 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 121.029253647429343, 14.657080830078414 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 121.018407018982117, 14.659123812440178 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 6.0 }, "geometry": { "type": "Point", "coordinates": [ 121.009529635020684, 14.658893306894344 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 121.051429834353655, 14.647165515732441 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 8.0 }, "geometry": { "type": "Point", "coordinates": [ 121.053562160019453, 14.643753794667161 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 9.0 }, "geometry": { "type": "Point", "coordinates": [ 121.052922462319714, 14.637783282802921 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 10.0 }, "geometry": { "type": "Point", "coordinates": [ 121.045139473639551, 14.653775725296423 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 121.045779171339291, 14.651323550780752 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 121.047271799305349, 14.650044155381272 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 13.0 }, "geometry": { "type": "Point", "coordinates": [ 121.067422276847154, 14.665290283891744 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 14.0 }, "geometry": { "type": "Point", "coordinates": [ 121.06081206728318, 14.667635842124124 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 15.0 }, "geometry": { "type": "Point", "coordinates": [ 121.042367450274, 14.677337923903515 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 16.0 }, "geometry": { "type": "Point", "coordinates": [ 121.03064430507105, 14.678454238122985 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 121.076591277210099, 14.672433574872175 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 18.0 }, "geometry": { "type": "Point", "coordinates": [ 121.080216230841955, 14.676591609920486 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 19.0 }, "geometry": { "type": "Point", "coordinates": [ 121.082028707657884, 14.679257017002735 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 20.0 }, "geometry": { "type": "Point", "coordinates": [ 121.079683149425506, 14.656227899812091 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 121.074778800394171, 14.660599167426984 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 22.0 }, "geometry": { "type": "Point", "coordinates": [ 121.057203772445575, 14.654878537476705 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 23.0 }, "geometry": { "type": "Point", "coordinates": [ 120.998792406203549, 14.658840829510764 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 24.0 }, "geometry": { "type": "Point", "coordinates": [ 121.033767994343208, 14.65605041850595 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 121.017561534435998, 14.633971393999836 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 26.0 }, "geometry": { "type": "Point", "coordinates": [ 121.024538986898023, 14.680435440392895 ] } }
+,
+{ "type": "Feature", "properties": { "SENSOR_ID": 27.0 }, "geometry": { "type": "Point", "coordinates": [ 121.069267202835746, 14.666754587916884 ] } }
+
+]
+}

@@ -1,0 +1,110 @@
+<!-- LAYERS PANEL SIDENAV -->
+<md-sidenav class="md-sidenav-left md-whiteframe-z2 map-panel"
+    md-component-id="layerPanel"
+    id="layer-panel">
+  <md-toolbar class="md-primary">
+      <div class="md-toolbar-tools">
+          <h3>
+              <md-icon style="margin-right: 10px;">layers</md-icon>Map Layers
+          </h3>
+          <span flex></span>
+          <md-button class="md-icon-button" ng-click="indexCtl.closeSideNav('layerPanel')">
+            <md-icon>close</md-icon>
+          </md-button>
+      </div>
+  </md-toolbar>
+
+
+    <md-content layout-padding ng-controller="layerController as layerCtl" style="padding:0px;">
+      <v-accordion class="vAccordion--default" multiple>
+        <!-- add expanded attribute to open the section -->
+        <v-pane ng-repeat="layer in layerCtl.layers">
+          <v-pane-header inactive>
+
+            <!-- Show toggle icon if has children -->
+            <md-button class="md-icon-button" ng-if="layer.children" ng-click="$pane.toggle()">
+                <md-icon>expand_more</md-icon>
+            </md-button>
+            <!-- OR -->
+            <!-- Show Checkbox if layer has no children -->
+            <md-checkbox class="md-warn" ng-if="!layer.children" ng-model="layer.selected" ng-change="{{layer.action}}"></md-checkbox>
+            {{ layer.label }}
+          </v-pane-header>
+
+          <v-pane-content>
+            <md-list style="padding:0px;"  ng-if="layer.children">
+                <md-list-item ng-repeat="childLayer in layer.children" style="padding:0px;font-size:13px;">
+                  <md-checkbox class="md-warn" ng-model="childLayer.selected" ng-change="{{childLayer.action}}"></md-checkbox>{{ childLayer.label }}
+                </md-list-item>
+            </md-list>
+          </v-pane-content>
+        </v-pane>
+
+      </v-accordion>
+
+    </md-content>
+</md-sidenav>
+
+<!-- TIME SLIDER PANEL SIDENAV -->
+<md-sidenav class="md-sidenav-left md-whiteframe-z2 map-panel"
+    md-component-id="timeSliderPanel"
+    id="time-slider-panel"
+    ng-class="{'expand-time-panel': showTimeSlider, 'compress-time-panel': !showTimeSlider}">
+  <md-toolbar class="md-primary">
+      <div class="md-toolbar-tools">
+          <h3>
+              <md-icon style="margin-right: 10px;">schedule</md-icon>Time Sliders
+          </h3>
+          <span flex></span>
+          <md-button class="md-icon-button" ng-click="indexCtl.closeSideNav('timeSliderPanel')">
+            <md-icon>close</md-icon>
+          </md-button>
+      </div>
+  </md-toolbar>
+
+    <md-content layout-padding ng-controller="timeSliderLayerController as timeSliderCtl">
+      <v-accordion class="vAccordion--default" multiple>
+        <!-- add expanded attribute to open the section -->
+        <v-pane ng-repeat="timeLayer in timeSliderCtl.timeSliderLayers">
+          <v-pane-header inactive>
+            <!-- Show Checkbox if layer has no children -->
+            <md-checkbox class="md-warn" ng-model="timeLayer.selected" ng-change="timeSliderCtl.updateTimeSliderSelection($index, timeSliderCtl.timeSliderLayers)"></md-checkbox>
+            {{ timeLayer.label }}
+          </v-pane-header>
+          <v-pane-content>
+          </v-pane-content>
+        </v-pane>
+      </v-accordion>
+
+      <div id="data-container" layout="column" ng-if="showTimeSlider">
+
+        <h4>{{ timeSliderCtl.sliderDataLabel }}</h4>
+        <md-divider></md-divider>
+
+        <span class="slider-date">{{ timeSliderCtl.sliderDate }}</span>
+
+        <!-- Temperature Slider -->
+        <md-slider flex step="1" min="1" max="168"  ng-model="timeSliderCtl.sliderData.temperature.sliderValue" ng-show="timeSliderCtl.timeSliderLayers[0].selected"></md-slider>
+
+        <!-- Pressure Slider -->
+        <md-slider flex step="1" min="1" max="168"  ng-model="timeSliderCtl.sliderData.pressure.sliderValue" ng-show="timeSliderCtl.timeSliderLayers[1].selected"></md-slider>
+
+        <!-- Consumption Slider -->
+        <md-slider flex step="1" min="1" max="7"  ng-model="timeSliderCtl.sliderData.consumption.sliderValue" ng-show="timeSliderCtl.timeSliderLayers[2].selected"></md-slider>
+
+        <md-button class="play-slider-animation md-hue-2"
+            ng-click="timeSliderCtl.playSliderAnimation()"
+            ng-if="!timeSliderCtl.isPlayingAnimation">
+            <md-icon>play_arrow</md-icon> Play
+        </md-button>
+
+        <md-button class="play-slider-animation md-hue-2"
+            ng-click="timeSliderCtl.stopSliderAnimation()"
+            ng-if="timeSliderCtl.isPlayingAnimation">
+            <md-icon>stop</md-icon> Stop
+        </md-button>
+
+      </div>
+
+    </md-content>
+</md-sidenav>

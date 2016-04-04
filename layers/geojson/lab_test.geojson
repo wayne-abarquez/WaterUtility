@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "ID": 1, "COMPLAINT": "Burst"}, "geometry": { "type": "Point", "coordinates": [ 121.041489071273361, 14.668688329463016 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 2, "COMPLAINT": "Discoloration" }, "geometry": { "type": "Point", "coordinates": [ 121.023463926815495, 14.671120575591015 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 3, "COMPLAINT": "Contamination" }, "geometry": { "type": "Point", "coordinates": [ 121.006362965853739, 14.668593521842709 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 4, "COMPLAINT": "Discoloration" }, "geometry": { "type": "Point", "coordinates": [ 121.017012373606676, 14.654394311505465 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 5, "COMPLAINT": "Discoloration" }, "geometry": { "type": "Point", "coordinates": [ 121.02642568938829, 14.647324816269478 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 6, "COMPLAINT": "Rusty" }, "geometry": { "type": "Point", "coordinates": [ 121.074316329610554, 14.677315893907018 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 7, "COMPLAINT": "Burst" }, "geometry": { "type": "Point", "coordinates": [ 121.004946214286605, 14.658310187481282 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 8, "COMPLAINT": "Odor" }, "geometry": { "type": "Point", "coordinates": [ 121.077257594608966, 14.669607751152514 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 9, "COMPLAINT": "Sticky" }, "geometry": { "type": "Point", "coordinates": [ 121.078981784435641, 14.682184194594074 ] } }
+,
+{ "type": "Feature", "properties": { "ID": 10, "COMPLAINT": "Rusty" }, "geometry": { "type": "Point", "coordinates": [ 121.054113357179247, 14.669332799925559 ] } }
+
+]
+}

@@ -1,0 +1,21 @@
+<md-card id="time-slider-legend" ng-controller="legendController as legendCtl" ng-show="showLegend || showPipeMapLegend">
+    <md-card-content layout="column">
+         <div class="legend-content">
+            <h4 id="legend-label">Legend</h4>
+                <div class="legend-item-content" ng-show="showTimeSliderLegend">
+                    <md-divider></md-divider>
+                    <h5 class="legend-item-label">{{ legendCtl.legendData.title }}</h5>
+                    <div class="legend-item-data-label" ng-repeat="legend in legendCtl.legendData.data">
+                        <span ng-style="{'color': legend.labelColor}"><b>{{legend.label}}</b></span> <span class="legend-item-data-value">{{legend.value}}</span>
+                    </div>
+                </div>
+                <div class="legend-item-content" ng-show="showPipeMapLegend">
+                    <md-divider></md-divider>
+                    <h5 class="legend-item-label">{{ legendCtl.legendPipeMapData.title }}</h5>
+                    <div class="legend-item-data-label" ng-repeat="legend in legendCtl.legendPipeMapData.data">
+                        <span ng-style="{'color': legend.labelColor}"><b>{{legend.label}}</b></span> <span class="legend-item-data-value">{{legend.value}}</span>
+                    </div>
+                </div>
+         </div>
+    </md-card-content>
+</md-card>

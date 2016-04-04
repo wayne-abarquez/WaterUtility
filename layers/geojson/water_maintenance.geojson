@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0483903941793,
+                    14.67463077059938,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>1 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>-2,500,000 PHP</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td> Mauch Franco</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Numerous discolored water complaints. Further investigation revealed secondary cast iron pipe on the verge of disintegration. While replacing CI pipe with PVC, valve was incorrectly released leading to major event.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water1.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0392912388004,
+                    14.65488059753661,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>12 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>-20,000,000 PHP</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Ding Carpio</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Major pipe line was destroyed in seismic event. BMA was without water supply for 48+ hours. Crews had to coordinate with Globe Telco concerning overlapping telco cables. New pipeline is expected to be more efficient.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water2.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0620654124243,
+                    14.66757953484478,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>17 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>None. Cost to be paid for by Fire Department.</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Luis Juan Oreta </td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>In the process of responding to a fire incident, a fire truck hit a hydrant. Hydrant was permanently damaged. Because fire department had blocked roads, Manila Water response was delayed. Loss of 1,000,000 cubic meters of water.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water3.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0743662340349,
+                    14.67016823425535,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>16 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>+19,000,000 PHP/month</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Jalil Madueno</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Major pipeline valves were successfully installed. Units can now be controlled remotely from area pumping station.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water4.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0779769681666,
+                    14.6771775103012,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>15 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>+2,700,000 PHP/month</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Mauch Franco</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Lab tests indicated chlorine was escaping from 200 mm pipe leading to unnecessary chemical usage. Replacement was installed on 16 June 2015 without further complications.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water5.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0664142717105,
+                    14.64256558593943,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>7 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>-12,500,000 PHP</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Joemar Emboltoria</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Localized leak within pumping station led to collected water rotting away flooring in pumping station. Contractor failed to install backup generators correctly. Pumping station was without electric for 6 hours. Contractor’s contract was terminated.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water6.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0784016740784,
+                    14.65975450640015,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>1 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>+2,000,000 PHP/month</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Jay Gatchalian</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>200 mm pipe was installed to serve new commercial development. </td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water7.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.9982467597721,
+                    14.62344584988892,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n\t\t\t\t<table>\n\t\t\t\t<tr><td><b>Date:</b></td><td>1 June 2015</td></tr>\n\t\t\t\t<tr><td><b>P&L Impact:</b></td><td>+1,500,000 PHP/month</td></tr>\n\t\t\t\t<tr><td><b>Contact Manager:</b></td><td>Tom Mattison</td></tr>\n\t\t\t\t<tr><td><b>Incident Summary:</b></td></tr>\t\t\t\t\n\t\t\t\t<tr><td colspan='2'>Farmers made illegal connection to water crops. Farmers agreed to install meter without prosecution.</td></tr>\n\t\t\t\t<tr><td colspan='2'><img src='images/Water8.jpg'></img></td></tr>\n\t\t\t\t</table>\n\t\t\t\t</div>"
+            }
+        }
+    ]
+}
